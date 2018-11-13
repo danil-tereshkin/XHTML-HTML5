@@ -1,13 +1,12 @@
 body {
-    width: 500px;
+    width: 1000px;
     font: 0.8em Arial, Helvetica, sans-serif;
     /* Шрифт на веб-странице */
     background: #D7E1F2;
     /* Цвет фона */
     color: #ffe;
     /* Цвет текста */
-
-    margin: 10px auto;
+    margin: 0;
     /*  background-color: #FCE600; */
 }
 
@@ -17,12 +16,14 @@ a {
 }
 
 main {
+    /* position: relative;*/
     width: 500px;
     /* Ширина макета */
     margin: 0 auto;
     /* Выравниваем по центру */
     background: #FCE600;
     /* Цвет колонок */
+    /* position: relative; */
 }
 
 header {
@@ -36,8 +37,7 @@ header {
     /* Цвет фона шапки */
 }
 
-nav,
-aside {
+nav {
     float: left;
     width: 110px;
     padding: 5px;
@@ -52,7 +52,9 @@ article {
 
 aside {
     float: right;
-    color: #000;
+    width: 110px;
+    padding: 5px;
+    color: #00f;
 }
 
 h2 {
